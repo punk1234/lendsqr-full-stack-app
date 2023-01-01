@@ -1,9 +1,19 @@
 import './App.css';
 
+import Login from "./pages/Login/Login";
+import Error from "./pages/__Error__/Error";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
-      
+      <Router>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          {/* <Route path="/users" element={<Chat />} /> */}
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
