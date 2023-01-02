@@ -1,0 +1,23 @@
+.Header {
+  display: flex;
+  /* width: 100%; */
+  flex-wrap: wrap;
+  padding: 1em;
+  background-color: gold;
+  align-items: center;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}
+
+.Header input {
+  margin: 0 1em;
+  padding: 0.5em 1em;
+  font-size: 0.75rem;
+  width: 300px;
+  border: 1px solid #213F7D;
+  border-radius: 8px;
+}
+
+.Header__user_profile {
+  justify-self: flex-end;
+  background-color: wheat;
+}
