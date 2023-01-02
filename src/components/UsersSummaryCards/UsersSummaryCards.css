@@ -1,0 +1,22 @@
+.UsersSummaryCards {
+  display: flex;
+  gap: 1em;
+}
+
+.UsersSummaryCards__item {
+  padding: 1rem;
+  background-color: white;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.UsersSummaryCards__item_title, .UsersSummaryCards__item_stats_value {
+  line-height: 2rem;
+  font-size: 0.6rem;
+}
+
+.UsersSummaryCards__item_stats_value {
+  font-size: 1.2rem;
+  font-weight: 800;
+}

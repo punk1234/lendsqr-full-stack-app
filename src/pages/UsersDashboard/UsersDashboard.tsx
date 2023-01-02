@@ -1,4 +1,4 @@
-import { Header, NavBar } from "../../components";
+import { Header, MainUsersDashboard, NavBar } from "../../components";
 import "./UsersDashboard.css";
 
 function UsersDashboardPage() {
@@ -8,6 +8,7 @@ function UsersDashboardPage() {
       
       <div className="UsersDashboardPage__main">
         <NavBar />
+        <MainUsersDashboard />
       </div>
     </div>
   );
