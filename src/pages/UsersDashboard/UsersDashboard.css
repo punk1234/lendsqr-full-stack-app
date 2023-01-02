@@ -1,0 +1,13 @@
+.UsersDashboardPage {
+  background-color: red;
+}
+
+.UsersDashboardPage__main {
+  display: flex;
+}
+
+.UsersDashboardPage__main:nth-child(2) {
+  /* min-width: 100%; */
+  width: 20%;
+  background-color: white;
+}
